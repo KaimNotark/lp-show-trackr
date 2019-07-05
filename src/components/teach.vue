@@ -1,7 +1,7 @@
 <template>
   <div class="teach">
     <hr />
-    <h1>{{ teachText }}</h1>
+    <!-- <h1>{{ teachText }}</h1> -->
     <div class="content">
       <p class="content__text _green">обогащенный</p>
       <p class="content__text _green _small">бифидобактериями</p>
@@ -17,9 +17,7 @@
 <script>
 export default {
   name: "teach",
-  props: {
-    teachText: String
-  }
+  props: null
 };
 </script>
 
