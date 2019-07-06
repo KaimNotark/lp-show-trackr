@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <vHeader />
+    <vHeader/>
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
-    <teach teachText="Упаковка от мороженного" />
+    <teach teachText="Упаковка от мороженного"/>
   </div>
 </template>
 
@@ -18,14 +18,19 @@ export default {
     vHeader,
     // HelloWorld,
     teach
-    
   }
 };
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
 body {
   margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+#app {
+  font-family: "Source Sans Pro", sans-serif;
 }
 /* #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;

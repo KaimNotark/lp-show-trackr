@@ -1,13 +1,9 @@
 <template>
   <div class="header">
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
-      rel="stylesheet"
-    />
     <div class="container">
       <div class="header-wrap">
         <div class="header-logo">
-          <img src="../img/header-logo.png" alt="Show Trackr logo" class="header-logo__img" />
+          <img src="../img/header-logo.png" alt="Show Trackr logo" class="header-logo__img">
         </div>
         <nav class="header-navigation">
           <ul class="header-list">
@@ -29,11 +25,11 @@
       </div>
     </div>
   </div>
+  <!-- /header -->
 </template>
 
 <style lang="scss" scoped>
 // @import 'normalize.css';
-
 $font-family-primary: "Source Sans Pro", sans-serif;
 
 html {
