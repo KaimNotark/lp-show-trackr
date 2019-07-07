@@ -25,53 +25,9 @@
       </div>
     </div>
   </div>
-  <!-- /header -->
 </template>
 
 <style lang="scss" scoped>
-// @import 'normalize.css';
-$font-family-primary: "Source Sans Pro", sans-serif;
-
-html {
-  scroll-behavior: smooth;
-}
-
-.wrapper *,
-.wrapper *::before,
-.wrapper *::after {
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul,
-li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  min-height: 100vh;
-  font-family: $font-family-primary;
-  box-sizing: border-box;
-}
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .header {
   width: 100%;
   height: 50px;

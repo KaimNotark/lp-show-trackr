@@ -22,13 +22,18 @@ export default {
 };
 </script>
 
-<style>
+<style  lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+/* @import 'normalize.css'; */
+$font-family-primary: "Source Sans Pro", sans-serif;
 
 body {
+  min-height: 100vh;
   margin: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $font-family-primary;
+  box-sizing: border-box;
 }
+
 #app {
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -40,4 +45,38 @@ body {
   color: #2c3e50;
    margin-top: 60px; 
 } */
+
+html {
+  scroll-behavior: smooth;
+}
+
+// .wrapper *,
+// .wrapper *::before,
+// .wrapper *::after {
+//   box-sizing: border-box;
+// }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 </style>
