@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+
     <vHeader/>
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
@@ -8,6 +8,7 @@
 </template>
 
 <script>
+
 import vHeader from "./components/vHeader.vue";
 // import HelloWorld from "./components/HelloWorld.vue";
 import teach from "./components/teach.vue";

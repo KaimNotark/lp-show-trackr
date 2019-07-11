@@ -1,5 +1,6 @@
 # lp-show-trackr
-
+a lesson from
+https://www.youtube.com/watch?v=LGyihQvDEw4&list=PLyeqauxei6jd4mL4E9860HnO5GYayooR-
 ## Project setup
 ```
 yarn install
