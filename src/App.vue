@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <vHeader/>
+    <header>
+      <vHeader/>
+    </header>
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <teach teachText="Упаковка от мороженного"/>
@@ -20,12 +22,14 @@ export default {
     teach
   }
 };
+
+
 </script>
 
 <style  lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
-/* @import 'normalize.css'; */
 $font-family-primary: "Source Sans Pro", sans-serif;
+/* @import 'normalize.css'; */
 
 body {
   min-height: 100vh;
@@ -35,7 +39,7 @@ body {
 }
 
 #app {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: $font-family-primary;
 }
 /* #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;

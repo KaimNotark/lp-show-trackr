@@ -1,20 +1,40 @@
 <template>
-  <div class="teach">
-    <hr />
-    <!-- <h1>{{ teachText }}</h1> -->
-    <div class="content">
+  <div id="ex">
+    {{ message }}
+  </div>
+  <!-- <h1>{{ teachText }}</h1> -->
+  <!-- <div class="teach">
+  <hr>-->
+  <!-- <div class="content">
       <p class="content__text _green">обогащенный</p>
       <p class="content__text _green _small">бифидобактериями</p>
       <div class="content__devider"></div>
       <p class="content__text _blue">
         классический
-        <br />пломбир
+        <br>пломбир
       </p>
-    </div>
-  </div>
+  </div>-->
+
+  <!-- <ul id="example-1">
+      <li>{{ message }}</li>
+      <li v-for="item in items" v-bind:key="item">{{ item.message }}</li> 
+    </ul>
+  </div>-->
 </template>
 
 <script>
+import Vue from "vue";
+
+window.onload = function() {
+  new Vue({
+    el: '#ex',
+    data: {
+      message: 'Привет, Vue!'
+      // items: [{ message: "Foo" }, { message: "Bar" }]
+    }
+  });
+};
+
 export default {
   name: "teach",
   props: null
