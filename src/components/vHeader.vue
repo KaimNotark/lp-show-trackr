@@ -1,35 +1,35 @@
 <template>
-  <div class="vheader">
+  <header class="header">
     <div class="container">
-      <div class="vheader-wrap">
-        <div class="vheader-logo">
-          <img src="../img/header-logo.png" alt="Show Trackr logo" class="vheader-logo__img">
+      <div class="header-wrap">
+        <div class="header-logo">
+          <img src="../img/header-logo.png" alt="Show Trackr logo" class="header-logo__img">
         </div>
-        <nav class="vheader-navigation">
+        <nav class="header-navigation">
           
-          <ul class="vheader-list">
-            <li class="vheader-item">
-              <a href class="vheader-item__link">Features</a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a href class="header-item__link">Features</a>
             </li>
-            <li class="vheader-item">
-              <a href class="vheader-item__link">Community</a>
+            <li class="header-item">
+              <a href class="header-item__link">Community</a>
             </li>
-            <li class="vheader-item">
-              <a href class="vheader-item__link">Get Started</a>
+            <li class="header-item">
+              <a href class="header-item__link">Get Started</a>
             </li>
           </ul>
         </nav>
-        <div class="vheader-buttons">
-          <a href class="vheader-buttons__log-in">Log in</a>
-          <a href class="vheader-buttons__get-started">Get started</a>
+        <div class="header-buttons">
+          <a href class="header-buttons__log-in">Log in</a>
+          <a href class="header-buttons__get-started">Get started</a>
         </div>
       </div>
     </div>
-  </div>
+  </header>
 </template>
 
 <style lang="scss" scoped>
-.vheader {
+.header {
   width: 100%;
   height: 50px;
 

@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <header>
-      <vHeader/>
-    </header>
+    <vHeader/>
+
     <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <teach teachText="Упаковка от мороженного"/>
@@ -22,8 +21,6 @@ export default {
     teach
   }
 };
-
-
 </script>
 
 <style  lang="scss">

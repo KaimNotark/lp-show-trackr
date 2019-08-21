@@ -37,7 +37,7 @@ window.onload = function() {
 
 export default {
   name: "teach",
-  props: null
+  // props: null
 };
 </script>
 
